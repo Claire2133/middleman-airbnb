@@ -1,15 +1,58 @@
 ---
 title: Le Wagon - Middleman
 ---
+<div class="banner" style="background-image: url('https://cdn.flixbus.de/d7files/hi_res_images/header/3288_bordeaux.jpg');">
+ <div class="banner-content">
+  <h1>Focus on Bordeaux </h1>
+  <p>Visit this amazing city as soon as you can</p>
+  <form action="#" class="form-inline">
+   <input type="text" class="form-control input-lg" placeholder="Where?">
+   <input type="text" class="form-control input-lg" placeholder="When?">
+   <select name="" id="" class="form-control input-lg">
+     <option value="1">1 guest</option>
+     <option value="2">2 guests</option>
+     <option value="3">3 guests</option>
+   </select>
+   <input type="submit" class="btn btn-primary btn-lg" value="Let's book">
+ </form>
+</div>
+</div>
 
-<div id="home">
-  <div class="home-content">
-    <%= image_tag "logo.png", width: "200" %>
-    <p>
-      Middleman is now running!
-    </p>
-    <p class="about">
-      <%= link_to "More about this template", "about.html" %>
-    </p>
+<div class="container">
+  <div class="row">
+    <h2 class="text-center">Popular other places </h2>
+    <div class="col-xs-12 col-sm-4">
+      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/shanghai');">
+        <div class="card-category">Popular</div>
+        <div class="card-description">
+          <h2>Shanghai</h2>
+          <p>Very cool city, the best</p>
+        </div>
+        <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/claire2133">
+        <a class="card-link" href="#" ></a>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/Bali');">
+        <div class="card-category">Popular</div>
+        <div class="card-description">
+          <h2>Bali</h2>
+          <p>Nice island</p>
+        </div>
+        <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/DamienGuillot">
+        <a class="card-link" href="#" ></a>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/Montreal');">
+        <div class="card-category">Popular</div>
+        <div class="card-description">
+          <h2>Montreal</h2>
+          <p>Very chill city </p>
+        </div>
+        <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/SagnieresY">
+        <a class="card-link" href="#" ></a>
+      </div>
+    </div>
   </div>
 </div>
