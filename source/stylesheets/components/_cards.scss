@@ -7,7 +7,16 @@
   background-position: center;
   color: $pink;
   position: relative;
+    h2 {
+      color: white;
+    }
 }
+
+.card p {
+  color: white;
+}
+
+
 .card-user {
   position: absolute;
   right: 10px;
